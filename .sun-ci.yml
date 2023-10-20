@@ -10,4 +10,4 @@ jobs:
   - apk add curl git
   - curl -Os https://uploader.codecov.io/latest/linux/codecov
   - chmod +x codecov
-  - ./codecov -t $CODECOV_TOKEN -u https://codecov.sun-asterisk.vn
+  - ./codecov -t $CODECOV_TOKEN -u https://codecov.sun-asterisk.vn -Z
